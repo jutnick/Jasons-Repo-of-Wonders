@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BLACKJACK GAME</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Welcome to ULTIMATE BLACKJACK</h1>
+            <div class="gameTable">
+                <div class="gameChoices">
+                    <a class ="startButton" value="Play" onclick="startBlackJack()">
+                        <button>Deal</button>
+                    </a>
+                    <a class="hitButton" value="Hit" onclick="hitMe()">
+                        <button>Hit</button>
+                    </a>
+                    <a class="stayButton" value="Stay" on click="stay()">
+                        <button>Stay</button>
+                    </a>
+                </div>
+
+                    <div class="status" id="status"></div>
+                
+                <div class="deck">
+                    <a href="scripts.js" class="shuffleButton" onClick="shuffle()">Shuffle</a>
+                </div>
+
+                <div class="players">
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div>
+    </div>
+    <script type ="text/javascript" src="scripts.js"></script>
+</body>
+</html>

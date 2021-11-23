@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://games.xfinity.com/arenaxstorage-blob/arenax-games/BlackJack/0.46/build/resources/assets/thumbs/thumb2x.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.enterButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    cursor: pointer;
+    text-decoration: none;
+}
